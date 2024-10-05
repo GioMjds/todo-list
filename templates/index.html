@@ -19,9 +19,9 @@
         <ul>
             <h1>
                 {% if tasks %}
-                    Tasks :{{ tasks|length }}
+                    Tasks : {{ tasks|length }}
                 {% else %}
-                    No tasks yet!
+                    Tasks : 0
                 {% endif %}
             </h1>
             {% for task in tasks %}
