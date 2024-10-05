@@ -1,0 +1,88 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"] {
+  padding: 1rem;
+  font-size: 16px;
+  border: 1px solid #121212;
+  border-radius: 10px;
+  width: 50%;
+}
+
+form button[type="submit"] {
+  padding: 1rem;
+  font-size: 16px;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.update-btn,
+.delete-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.update-btn:hover,
+.delete-btn:hover {
+  background-color: #3e8e41;
+}
+
+.task {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.task-done {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.task-done:not([data-done="True"]) {
+  background-color: #ff9999;
+}
+
+.task-done[data-done="True"] {
+  background-color: #00ff00;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li form {
+  display: inline-block;
+  margin: 0 10px;
+}
