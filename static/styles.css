@@ -54,22 +54,20 @@ button[type="submit"]:hover {
 }
 
 .task {
-  font-size: 18px;
+  font-size: 26px;
   margin-bottom: 10px;
 }
 
-.task-done {
-  font-size: 16px;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
 .task-done:not([data-done="True"]) {
-  background-color: #ff9999;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #f53232;
 }
 
 .task-done[data-done="True"] {
-  background-color: #00ff00;
+  border-radius: 5px;
+  background-color: #3efc3e;
+  padding: 1rem;
 }
 
 ul {
